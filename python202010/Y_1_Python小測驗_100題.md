@@ -164,6 +164,7 @@ print(a)
 (C) [Hello Python]
 (D) {"Hello Python"}
 ```
+A
 ```
 17.試問以下程式執行後輸出什麼結果:
 
@@ -173,6 +174,7 @@ print(a[1])
 
 (A) H   (B) e   (C) l   (D) 1
 ```
+B
 ```
 18.要在螢幕輸出llo  底下程式需填入什麼:
 
@@ -182,6 +184,7 @@ print(a[__________])
 
 (A) 4:6   (B) 3:5   (C) 2:5   (D) llo
 ```
+C
 ```
 19.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -193,6 +196,12 @@ print(a.strip())
 (C) HelloPython         
 (D) H e l l o P y t h o n
 ```
+AC
+
+#### Python strip() 方法用于移除字符串头尾指定的字符（默认为空格或换行符）或字符序列。
+
+注意：该方法只能删除开头或是结尾的字符，不能删除中间部分的字符。
+
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
 #!/usr/bin/python3
@@ -205,6 +214,7 @@ print(x)
 (C) ==
 (D) in
 ```
+D
 ```
 21.試問若要輸出a、b兩字串合併後的結果以下程式應填入什麼:
 #!/usr/bin/python3
@@ -217,6 +227,7 @@ print(__________)
 (C) ab
 (D) a,b
 ```
+B
 ```
 22.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -229,6 +240,7 @@ print(a + b)
 (C) 100 Kun Shan
 (D) TypeError
 ```
+D
 ## 字串2
 ```
 23.試問以下程式執行後輸出什麼結果:
@@ -242,18 +254,20 @@ print(a.format(b))
 (C) University Kun Shan
 (D) University
 ```
+B
 ```
 24.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
-a = '{1} Kun Shan {0}'
-b = 'University'
-print(a.format(b,‘Hello’))
+a = "{1} Kun Shan {0}"
+b = "University"
+print(a.format(b,"Hello"))
 
 (A) Hello Kun Shan University
 (B) University Kun Shan Hello
 (C) {1} Kun Shan {0}
 (D) b,‘Hello’
 ```
+A
 ```
 25.試問若以下程式執行後要輸出一對雙引號需填入什麼:
 #!/usr/bin/python3
