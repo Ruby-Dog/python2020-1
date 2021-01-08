@@ -532,12 +532,12 @@ D
 cat = ______
 創建一個cat的串列需填入什麼？
 
-(A) [“Python”,”C”,”JAVA”,” Assembly”]
+(A) ["Python","C","JAVA","Assembly"]
 (B) {'a': 1, 'b': 2, 'b': '3'}
 (C) new cat;
 (D) list()
 ```
-
+A
 ```
 45.
 thisislist = [1,2,3,4,5]
@@ -549,6 +549,7 @@ print(__________)
 (C) thisislist[3]
 (D) thisislist[2]
 ```
+D
 ```
 46.
 thisislist = [1,2,3,4,5]
@@ -560,6 +561,7 @@ print(thisislist[-4])
 (C) 3
 (D) 4
 ```
+B
 ```
 47.
 thisislist = [1,2,3,4,5]
@@ -571,6 +573,7 @@ print(thisislist[_________])
 (C) 1-4
 (D) 1-3
 ```
+A
 ```
 48.
 thisislist = [1,2,3,4,5]
@@ -582,6 +585,8 @@ print(thisislist[-5:-3:2])
 (C) 3
 (D) 4
 ```
+A
+#### list[開頭:結束(不包含):間隔]
 ```
 49.
 thisislist = [1,2,3,4,5]
@@ -594,6 +599,7 @@ print(thisislist)
 (C) thisislist[4]
 (D) thisislist[3]
 ```
+D
 ```
 50.
 thisislist = [1,2,3,4,5]
@@ -605,6 +611,7 @@ __________
 (C) thisislist.insert(6)
 (D) thisislist[5] = 6
 ```
+A
 ## Dictionary 資料型態
 ```
 51.
@@ -616,6 +623,7 @@ thisisdict = ________
 (C) dict()
 (D) 123456
 ```
+B
 ```
 52.
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
@@ -628,6 +636,7 @@ print(x)
 (C) thisisdict["b"]
 (D) thisisdict[b]
 ```
+C
 ```
 53.
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
