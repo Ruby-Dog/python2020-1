@@ -279,6 +279,7 @@ print(a)
 (C) \"\"
 (D) [“”]
 ```
+C
 ```
 26.要在螢幕輸出字串的長度  底下程式需使用哪個函數:
 #!/usr/bin/python3
@@ -290,6 +291,7 @@ print(_______)
 (C) abs(a)
 (D) int(a)
 ```
+A
 ```
 27.試問要英文字母轉為大寫以下程式需填入什麼:
 #!/usr/bin/python3
@@ -301,6 +303,9 @@ print(__________)
 (C) a.upper()
 (D) a.lower()
 ```
+C
+#### isupper()回傳TURE OR FALSE
+
 ```
 28.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -311,10 +316,11 @@ print(“%s Python! %d” % (“Hello”,123))
 (C) %s Python! %d
 (D) Hello Python! 123
 ```
+D
 ```
 29.若要將字串a中的o替換成x以下程式需填入什麼:
-a = “Hello Python!”
-a = a._________
+a = "Hello Python!"
+a = a.replace("o","x")
 print(a)
 
 (A) replace(“o”,”x”)
@@ -322,6 +328,7 @@ print(a)
 (C) “Hellx Pythxn!”
 (D) format(“o”,”x”)
 ```
+A
 # 3.選擇結構1
 ```
 30.
@@ -334,6 +341,7 @@ if None:
 (C) Hello
 (D) False
 ```
+A
 ```
 31.
 if 1:
@@ -345,6 +353,7 @@ if 1:
 (C) Hello
 (D) False
 ```
+C
 ```
 32.
 if 100:
@@ -356,6 +365,7 @@ if 100:
 (C) Hello
 (D) False
 ```
+C
 ```
 33.
 if 0:
@@ -367,9 +377,10 @@ if 0:
 (C) Hello
 (D) False
 ```
+A
 ```
 34.
-if 100 == “100”:
+if 100 == "100":
     print("Hello")
 以上程式碼輸出的結果是？
 
@@ -378,6 +389,7 @@ if 100 == “100”:
 (C) Hello
 (D) False
 ```
+A
 ```
 35.
 if 100 == 100:
@@ -389,6 +401,7 @@ if 100 == 100:
 (C) Hello
 (D) False
 ```
+C
 ```
 36.
 if 100 >= 1:
@@ -400,6 +413,7 @@ if 100 >= 1:
 (C) Hello
 (D) False
 ```
+C
 ## 選擇結構2
 ```
 37.
@@ -416,6 +430,7 @@ else:
 (C) a
 (D) b
 ```
+A
 ```
 38.
 a = 50
@@ -428,6 +443,7 @@ print("A") if a > b else print("B")
 (C) B
 (D) A
 ```
+C
 ```
 39.
 a = 50
@@ -440,13 +456,14 @@ print("A") if a > b else print("B") if a != b else print("!=")
 (C) B
 (D) 語法錯誤
 ```
+B
 ```
 40.
 a = 77
 b = 10
 c = 0
 if a > b ___ c > a:
-  print("True")
+  print("Hello World!")
 若要讓程式印出Hello World!需在___中填入什麼？
 
 (A) not in
@@ -454,6 +471,7 @@ if a > b ___ c > a:
 (C) or
 (D) and
 ```
+C
 ```
 41.
 a = 0
