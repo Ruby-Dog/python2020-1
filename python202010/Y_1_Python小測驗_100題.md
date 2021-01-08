@@ -78,6 +78,7 @@ print(100 < 200)
 
 (A) False   (B) True   (C) 100   (D) 200
 ```
+B
 # 2.資料型態及其運算 DataType
 ```
 9.要定義一個整數變數a  底下程式碼需填入什麼:
@@ -89,6 +90,7 @@ a = ___________
 (C) 100 / 10
 (D) 1.0 * 1.0
 ```
+A
 ```
 10.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -100,6 +102,8 @@ print(a)
 (C) False
 (D) True
 ```
+D
+
 ```
 11.要在螢幕輸出變數x的資料型態  底下程式需使用哪個函數:
 #!/usr/bin/python3
@@ -108,6 +112,7 @@ print(_______(a))
 
 (A) any   (B) type   (C) complex   (D) bin
 ```
+B
 ```
 12.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -116,6 +121,7 @@ print(type(a))
 
 (A) str   (B) int   (C) float   (D) tuple
 ```
+A
 ```
 13.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -124,6 +130,9 @@ print(type(a))
 
 (A) str   (B) int   (C) float   (D) tuple
 ```
+D
+#### 在Python中，Tuple就像是串列（List），不過串列是可變動（Mutable）物件，而Tuple是不可變動（Immutable）物件。你可以使用()來建立Tuple物件
+
 ```
 14.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -132,6 +141,7 @@ print(type(a))
 
 (A) set   (B) dict   (C) list   (D) tuple
 ```
+C
 ```
 15.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
@@ -140,6 +150,7 @@ print(type(a))
 
 (A) set   (B) dict   (C) list   (D) tuple
 ```
+B
 ## 字串1
 ```
 16.試問若要定義一字串變數應填入什麼:
