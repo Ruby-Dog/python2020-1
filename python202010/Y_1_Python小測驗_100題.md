@@ -649,11 +649,12 @@ print(thisisdict)
 (C) thisisdict["b"]
 (D) thisisdict[b]
 ```
+C
 ```
 54.
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
-if “3” in thisisdict:
-   print(“Yes”)
+if "3" in thisisdict:
+   print("Yes")
 以上程式碼輸出的結果是？
 
 (A) Yes
@@ -661,6 +662,7 @@ if “3” in thisisdict:
 (C) True
 (D) 沒有輸出結果
 ```
+D
 ```
 55.
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
@@ -673,7 +675,7 @@ if “a” in thisisdict:
 (C) True
 (D) 沒有輸出結果
 ```
-
+A
 ```
 56.
 thisisdict1 = dict(a="1", b="2", c=3)
@@ -685,10 +687,11 @@ print(thisisdict1)
 (C) {}
 (D) {'1': 'a', '2': 'b', '3': c}
 ```
+B
 ```
 57.
 thisisdict1 = dict(a="1", b="2", c=3)
-thisisdict1.pop(“b”)
+thisisdict1.pop("b")
 print(thisisdict1)
 以上程式碼輸出的結果是？
 
@@ -697,6 +700,8 @@ print(thisisdict1)
 (C) ['a': '1', 'c': 3]
 (D) ['a': '1', 'b': '2', 'c': 3]
 ```
+A
+
 # Loop迴圈
 ## while迴圈1
 ```
@@ -712,6 +717,7 @@ while i < 60:
 (C) 20
 (D) 0
 ```
+A
 ```
 59.
 i = 20
@@ -725,6 +731,7 @@ print(i)
 (C) 20
 (D) 0
 ```
+B
 ```
 60.
 i = 20
