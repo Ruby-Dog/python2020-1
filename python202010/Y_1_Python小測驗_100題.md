@@ -895,6 +895,7 @@ print(“ok”)
 (C) end
 (D) 無法做到
 ```
+B
 # 函數Function
 ## 自訂函數1
 ```
@@ -909,6 +910,7 @@ _______________:
 (C) def print_funtion()
 (D) DWORD print_funtion()
 ```
+C
 ```
 73.
 def print_funtion():
@@ -922,6 +924,7 @@ ____________
 (C) print_funtion()
 (D) call print_funtion
 ```
+C
 ```
 74.
 def add(a,b):
@@ -935,6 +938,7 @@ print(_______)
 (C) add(150)
 (D) add()
 ```
+A
 ```
 75.
 def print_name(yourname):
@@ -948,12 +952,13 @@ print_name ("Steve Jobs")
 (C) yourname
 (D) Steve Jobs
 ```
+D
 ```
 76.
 def hello(greeting='Hello', name='world'): 
     print('{}, {}!'.format(greeting, name)) 
 
-hello_3()
+hello()
 以上程式碼輸出的結果是？
 
 (A) 沒有輸出
@@ -961,6 +966,7 @@ hello_3()
 (C) greeting, name!
 (D) '{}, {}!'.format(greeting, name)
 ```
+B
 ```
 77.
 def hello(greeting='Hello', name='world'): 
@@ -974,6 +980,7 @@ hello_3('great', 'universe')
 (C) great, universe!
 (D) '{}, {}!'.format(greeting, name)
 ```
+C
 ```
 78.
 def hello(greeting='Hello', name='world'): 
@@ -987,6 +994,9 @@ hello_3(name = 'great')
 (C) '{}, {}!'.format(greeting, name)
 (D) Hello, great!
 ```
+great, Hello!
+
+
 ## 匿名函數Lambda
 ```
 79.
@@ -998,6 +1008,8 @@ x = ___________
 (C) lambda y : x
 (D) lambda x : y
 ```
+???
+A
 ```
 80.
 x = lambda y : ______
@@ -1008,6 +1020,8 @@ x = lambda y : ______
 (C) 100
 (D) 0
 ```
+???
+A
 ```
 81.
 x = lambda y : y + 100
@@ -1019,6 +1033,7 @@ print(x(10))
 (C) 110
 (D) 200
 ```
+C
 ```
 82.
 x = lambda ___________
@@ -1030,6 +1045,7 @@ print(x(3, 3))
 (C) a * b
 (D) a, b
 ```
+B
 ```
 83.
 def func(x):
@@ -1042,6 +1058,7 @@ print(a(8))
 (A) (1) 7  (2) a*x      (B) (1) a*x  (2) 7
 (C) (1) 7  (2) a*a      (D) a*a    (2) 7
 ```
+A
 ```
 84.
 def func(n):
@@ -1056,6 +1073,7 @@ print(a(10))
 (C) 150
 (D) 25
 ```
+B
 ```
 85.
 hard_func = lambda y, func: y + func(y)
