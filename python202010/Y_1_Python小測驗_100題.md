@@ -841,6 +841,8 @@ print(x)
 (C) “ ” not in x
 (D) x != “ ”
 ```
+???
+D
 ```
 68.
 for x in [0, 1, 2,3]:
@@ -854,6 +856,7 @@ for x in [0, 1, 2,3]:
 (C) pause
 (D) exit
 ```
+A
 ```
 69.
 for x in range(6):
@@ -865,6 +868,7 @@ for x in range(6):
 (C) 輸出6
 (D) 輸出隨機的6個數字
 ```
+B
 ```
 70.
 for x in range(20, 15, _____):
@@ -876,6 +880,9 @@ for x in range(20, 15, _____):
 (C) ++2
 (D) 2++
 ```
+???
+感覺是A
+答案給B
 ```
 71.
 for x in [3,4,5]:
